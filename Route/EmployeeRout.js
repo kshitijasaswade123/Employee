@@ -3,7 +3,7 @@ const { getdata, postdata, putdata, deletdata } = require("../Controller/Employe
 
 route.get("/", getdata);
 route.post("/", postdata);
-route.put("/id", putdata);
-route.delete("/id", deletdata);
+route.put("/:id", putdata);
+route.delete("/:id", deletdata);
 
 module.exports = route;
