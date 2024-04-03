@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "57d1d427-5bfc-40e3-8483-e724daa694e5",
+		"name": "EmployeeSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://employee-hqym.onrender.com/api/employeedata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://employee-hqym.onrender.com/api/employeedata",
+					"protocol": "https",
+					"host": [
+						"employee-hqym",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"employeedata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://employee-hqym.onrender.com/api/employeedata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"yuvraj\",\r\n    \"joiningDate\":\"\",\r\n    \"salary\":\"42000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employee-hqym.onrender.com/api/employeedata",
+					"protocol": "https",
+					"host": [
+						"employee-hqym",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"employeedata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://employee-hqym.onrender.com/api/employeedata/660d0a826f79cd56428be319",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"yuvraj\",\r\n    \"joiningDate\":\"\",\r\n    \"salary\":\"41000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employee-hqym.onrender.com/api/employeedata/660d0a826f79cd56428be319",
+					"protocol": "https",
+					"host": [
+						"employee-hqym",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"employeedata",
+						"660d0a826f79cd56428be319"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://employee-hqym.onrender.com/api/employeedata/660d0a826f79cd56428be319",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://employee-hqym.onrender.com/api/employeedata/660d0a826f79cd56428be319",
+					"protocol": "https",
+					"host": [
+						"employee-hqym",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"employeedata",
+						"660d0a826f79cd56428be319"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
